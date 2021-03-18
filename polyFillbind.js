@@ -3,14 +3,22 @@ let name = {
   lastName: "kumar",
 };
 
-let printName = function (hometown, state) {
+let printName = function (hometown, state, country) {
   console.log(
-    this.firstName + " " + this.lastName + " " + hometown + " " + state
+    this.firstName +
+      " " +
+      this.lastName +
+      " " +
+      hometown +
+      " " +
+      state +
+      " " +
+      country
   );
 };
 
 let printMyname = printName.bind(name, "Dehradhun", "Uttrakhand");
-printMyname();
+printMyname("India");
 
 Function.prototype.mybind = function (...args) {
   let obj = this;
@@ -21,4 +29,4 @@ Function.prototype.mybind = function (...args) {
 };
 
 let printName2 = printName.mybind(name, "Punjab", "Phagwara");
-printName2();
+printName2("India");
