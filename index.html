@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Core javascript</title>
+
+    <style>
+        div{
+            min-width: 100px;
+            min-height: 100px;
+            padding: 30px;
+            border: 1px solid black;
+        }
+    </style>
+
 </head>
 <body>
-    <input type="text" onkeyup="betterFunction()" />
-    <script src = "Currying.js"></script>
+    <!-- <input type="text" onkeyup="betterFunction()" /> -->
+
+    <div id="grandparent">
+        <div id="parent">
+            <div id="child"></div>
+        </div>
+    </div>
+
+    <script src = "EventBubbling.js"></script>
 </body>
 </html>
