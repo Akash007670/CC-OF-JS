@@ -23,3 +23,16 @@
 
 8. Block is also known as compound statement.
    We group multiple statements in curly braces {} where javascript expects a single statement.
+
+9. Block scope also follow lexical scope.
+
+10. Uses of Closures :
+
+- Module Design Pattern
+- Currying
+- Functions like once
+- Memoize
+- Maintaining state in async world
+- setTimeouts
+- Iterators
+- and many more...
