@@ -36,3 +36,5 @@
 - setTimeouts
 - Iterators
 - and many more...
+
+11. An anonymous function is a function without a name. An anonymous function is often not accessible after its initial creation.
