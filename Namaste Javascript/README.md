@@ -38,3 +38,5 @@
 - and many more...
 
 11. An anonymous function is a function without a name. An anonymous function is often not accessible after its initial creation.
+
+12. A callback is a function passed as an argument to another function. This technique allows a function to call another function. A callback function can run after another function has finished.
